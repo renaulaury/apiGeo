@@ -1,3 +1,4 @@
+/**************** Général ****************/ 
 * {
     margin:0;
     padding:0;
@@ -11,9 +12,13 @@ h1 {
     padding-bottom: 5%;
 }
 
+
+/********************** Code Postal *********************/
 .codePostal {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
     gap: 80px;
 }
 
@@ -27,4 +32,12 @@ h1 {
 
 .ville {
     width: 100%;
+}
+
+/********************** Map ************************/
+.map {
+    margin-top: 5%;
+    width: auto;
+    height: 500px;
+    border: 1px solid black;
 }
