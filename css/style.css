@@ -35,8 +35,9 @@ h1 {
 }
 
 /********************** Map ************************/
-.map {
+#map{
     margin-top: 5%;
+    margin-bottom: 5%;
     width: auto;
     height: 500px;
     border: 1px solid black;
